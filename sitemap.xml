@@ -6,16 +6,37 @@
   </url>
   
   <url>
+    <loc>https://docs.thecodefoundation.dev/introduction/</loc>
+    
+    <lastmod>2020-03-12T14:15:45.052Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.thecodefoundation.dev/api/overview/</loc>
+    
+    <lastmod>2020-03-12T14:15:10.449Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://docs.thecodefoundation.dev/javascript/reference/</loc>
+    
+    <lastmod>2020-03-12T14:12:42.012Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://docs.thecodefoundation.dev/getting-started/</loc>
     
-    <lastmod>2020-03-07T18:28:41.143Z</lastmod>
+    <lastmod>2020-03-12T14:06:36.456Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://docs.thecodefoundation.dev/examples/showcase/</loc>
     
-    <lastmod>2020-03-07T18:28:01.494Z</lastmod>
+    <lastmod>2020-03-08T12:21:33.926Z</lastmod>
     
   </url>
   
@@ -23,20 +44,6 @@
     <loc>https://docs.thecodefoundation.dev/javascript/usage/</loc>
     
     <lastmod>2020-03-07T18:27:54.459Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.thecodefoundation.dev/introduction/</loc>
-    
-    <lastmod>2020-03-07T18:27:36.293Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.thecodefoundation.dev/javascript/installation/</loc>
-    
-    <lastmod>2020-03-07T18:27:32.214Z</lastmod>
     
   </url>
   
