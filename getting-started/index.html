@@ -109,31 +109,51 @@ ga('send', 'pageview');
         <div class="book-content">
           <div class="book-post">
   <h1 id="Getting-Started">Getting Started</h1>
+<p>Aify is very easy to get started with. Following this guide you can begin using Aify in under 15 minutes! Let’s dive in!</p>
+<h2 id="Step-1-Create-your-account-on-Aify-Dashboard">Step 1 - Create your account on Aify Dashboard</h2>
 <ol>
-<li>Log on to <a href="https://aify.thecodefoundation.dev/" target="_blank" rel="noopener">Aify Dashboard</a> and Login or Create Account. After account creation, Login to your account.</li>
+<li>Head over to <a href="https://thecodefoundation.dev" target="_blank" rel="noopener">aify.thecodefoundation.dev</a>. You’ll be presented with the login screen as shown below -</li>
+<li>Click on Create an Account to register a new account. If you already have an account, skip to step 4.</li>
+<li>Fill in the required details on the registration page. Click on Register to button to complete registration.</li>
+<li>You’ll be taken back to the login screen. Enter your credentials and submit the form to login.</li>
+</ol>
+<h2 id="Step-2-Add-your-website">Step 2 - Add your website</h2>
+<ol start="5">
 <li>On the left menu, Click on Websites &gt; Add</li>
 <li>Add your website, enter any name for your website and enter the root URL of the site.</li>
-<li>Ensure that your website has a publicly accessible sitemap file, preferably at <a href="https://example.com/sitemap.xml" target="_blank" rel="noopener">/sitemap.xml</a> location. Our Aify Crawler will use this sitemap to crawl your website.</li>
-<li>Wait for 10-15 mins for the Aify Crawler to visit your website and work its magic in the background.</li>
-<li>On your web page, include the following line to import the AifyJS package into your application -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;thecodefoundation.dev&#x2F;aify.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<blockquote style="background: #f4f493">
+<p>Ensure that your website has a publicly accessible sitemap file, preferably at [/sitemap.xml](https://example.com/sitemap.xml) location. Our Aify Crawler will use this sitemap to crawl your website.</p>
+</blockquote>
+<p>Wait for a few minutes for the Aify Crawler to visit your website and work its magic in the background. Meanwhile, you can move to the next steps and grab your API keys!</p>
+<h2 id="Step-3-Get-your-API-Keys">Step 3 - Get your API Keys</h2>
 <ol start="7">
-<li>In your web page, use the following line to instantiate a connection to the Aify API -</li>
+<li>On the top right of any page in the Aify Dashboard, Click on the user profile picture to open your personal information and settings menu.</li>
+<li>Click on <a href="https://aify.thecodefoundation.dev/settings" target="_blank" rel="noopener">Settings</a> to open up your account settings page.</li>
+<li>To create a New API Key, enter any string as per your wish as a name for the Key. Click on Create API Key button.</li>
+<li>Note down the API key displayed in a safe location. You will not be shown in this API key again.</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var ai &#x3D; new aifyjs();</span><br></pre></td></tr></table></figure>
-<ol start="8">
-<li>To generate element labels on the web page, use the following line -</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.labels();</span><br></pre></td></tr></table></figure>
-<ol start="9">
-<li>To fetch captions for the images on the page, use the following line -</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.captions();</span><br></pre></td></tr></table></figure>
-<ol start="10">
-<li>When your page loads, it will silently cause an update of the page source to reflect the labels and captions fetched from the Aify API.</li>
-<li>Voila! Your website is more accessible to people with visual challenges now!</li>
-</ol>
+<h2 id="Step-4-Play-with-the-APIs">Step 4 - Play with the APIs</h2>
+<p>Now that you’ve got your API keys, you can play around with your API key using Postman or any other equivalent tool for making calls to the REST API.</p>
+<p>if you do not have Postman on your system, you can download it using the link below -</p>
+<p><a class="btn btn-primary" style="text-decoration: none;" href="https://www.postman.com/downloads/" target="_blank" rel="noopener">Download Postman</a></p>
+<style>
+.btn.btn-primary {
+    background: #128fff;
+    border-color: #2299ff;
+    text-decoration: none;
+}
+.btn.btn-primary:active {
+    background: #1299ff;
+    border-color: #1277dd;
+    text-decoration: none ;
+}
+.btn.btn-primary:focus, .btn.btn-primary:hover {
+	text-decoration: none;
+    background: #1299ff;
+    border-color: #1277dd;
+}
+</style>
 
 </div>
 
