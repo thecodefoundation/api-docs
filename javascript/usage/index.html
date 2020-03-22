@@ -108,26 +108,33 @@ ga('send', 'pageview');
         </div>
         <div class="book-content">
           <div class="book-post">
-  <ol start="6">
+  <h1 id="Usage-JavaScript-Library">Usage - JavaScript Library</h1>
+<ol>
 <li>On your web page, include the following line to import the AifyJS package into your application -</li>
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;thecodefoundation.dev&#x2F;aify.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<ol start="7">
+<ol start="2">
 <li>In your web page, use the following line to instantiate a connection to the Aify API -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var ai &#x3D; new aifyjs();</span><br></pre></td></tr></table></figure>
-<ol start="8">
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var ai &#x3D; new aifyjs(&quot;YOUR-API-KEY&quot;);</span><br></pre></td></tr></table></figure>
+<p>If you have not yet generated the API Key, read <a href="http://localhost:4000/getting-started/#Step-3-Get-your-API-Keys" target="_blank" rel="noopener">How to get your API Keys</a>.</p>
+<ol start="3">
 <li>To generate element labels on the web page, use the following line -</li>
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.labels();</span><br></pre></td></tr></table></figure>
-<ol start="9">
+<ol start="4">
 <li>To fetch captions for the images on the page, use the following line -</li>
 </ol>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.captions();</span><br></pre></td></tr></table></figure>
-<ol start="10">
-<li>When your page loads, it will silently cause an update of the page source to reflect the labels and captions fetched from the Aify API.</li>
-<li>Voila! Your website is more accessible to people with visual challenges now!</li>
+<ol start="5">
+<li>
+<p>When your page loads, it will silently cause an update of the page source to reflect the labels and captions fetched from the Aify API.</p>
+</li>
+<li>
+<p>Voila! Your website is more accessible to people with visual challenges now!</p>
+</li>
 </ol>
+<p>You can read about all available library methods in the <a href="/javascript/reference">JavaScript Library Reference</a>.</p>
 
 </div>
 
