@@ -112,20 +112,24 @@ ga('send', 'pageview');
 <ol>
 <li>On your web page, include the following line to import the AifyJS package into your application -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;https:&#x2F;&#x2F;thecodefoundation.dev&#x2F;aify.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://thecodefoundation.dev/aify.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>Note that you’ll need to include jQuery to your web page to use aifyjs.</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <ol start="2">
 <li>In your web page, use the following line to instantiate a connection to the Aify API -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var ai &#x3D; new aifyjs(&quot;YOUR-API-KEY&quot;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> ai = <span class="keyword">new</span> aifyjs(<span class="string">"YOUR-API-KEY"</span>);</span><br></pre></td></tr></table></figure>
 <p>If you have not yet generated the API Key, read <a href="http://localhost:4000/getting-started/#Step-3-Get-your-API-Keys" target="_blank" rel="noopener">How to get your API Keys</a>.</p>
 <ol start="3">
 <li>To generate element labels on the web page, use the following line -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.labels();</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.labels();</span><br></pre></td></tr></table></figure>
 <ol start="4">
 <li>To fetch captions for the images on the page, use the following line -</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.captions();</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ai.captions();</span><br></pre></td></tr></table></figure>
 <ol start="5">
 <li>
 <p>When your page loads, it will silently cause an update of the page source to reflect the labels and captions fetched from the Aify API.</p>
