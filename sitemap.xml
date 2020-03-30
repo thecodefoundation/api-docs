@@ -6,6 +6,13 @@
   </url>
   
   <url>
+    <loc>https://docs.thecodefoundation.dev/api/overview/</loc>
+    
+    <lastmod>2020-03-30T06:37:09.716Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://docs.thecodefoundation.dev/examples/showcase/</loc>
     
     <lastmod>2020-03-30T06:25:37.629Z</lastmod>
@@ -44,13 +51,6 @@
     <loc>https://docs.thecodefoundation.dev/javascript/voice-ux/</loc>
     
     <lastmod>2020-03-12T14:32:53.626Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://docs.thecodefoundation.dev/api/overview/</loc>
-    
-    <lastmod>2020-03-12T14:15:10.449Z</lastmod>
     
   </url>
   
